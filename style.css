@@ -1,0 +1,87 @@
+.bg-light {
+  position: sticky;
+  top: 0px;
+}
+.bg-light {
+  background-color: rgb(248, 249, 250) !important;
+  position: sticky;
+  top: 0;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  /* display: inline; */
+  padding: 10px;
+  margin: 10px;
+}
+header ul li h3 {
+  font-size: 16px;
+}
+header ul li p {
+  font-size: 12px;
+}
+header ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgb(133, 211, 114);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 14px;
+}
+.main-section {
+  background: url("./image/entrepreneur-593358_1920.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+}
+.sec-2 h3 {
+  font-size: 26px;
+  /* padding: 10px; */
+  margin-top: 10px;
+}
+.list ul {
+  list-style: inside;
+  background: rgb(255, 253, 253);
+}
+.list ul li {
+  padding: 5px;
+}
+.list ul li:hover {
+  color: rgb(50, 116, 50);
+  cursor: pointer;
+}
+.list ul h4 {
+  font-size: 18px;
+  color: rgb(119, 162, 255);
+}
+.below-cont {
+  width: 300px;
+  text-align: center;
+  background: #fff;
+  border: none;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.below {
+  background: rgb(236, 236, 236);
+  padding: 10px;
+}
+.below-cont i {
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(119, 162, 255);
+}
+.nav-link i {
+  padding: 5px;
+  transition: 0.9;
+}
+.nav-link i:hover {
+  color: rgb(96, 168, 96);
+  transform: scale(1.2);
+}
